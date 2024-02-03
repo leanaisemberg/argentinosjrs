@@ -1,0 +1,48 @@
+/** General **/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Montserrat:ital,wght@0,100;0,400;0,700;1,400&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header,
+footer {
+    background-color: red;
+}
+
+h1 {
+    color: #CD0000;
+}
+
+h2 {
+    font-size: 1.2em;
+    color:blue;
+}
+
+.bandera {
+    max-width: 50%;
+}
+
+.jugadores img {
+    max-width: 200px;
+}
+
+/** Header **/
+.logo {
+    max-width: 80px;
+    max-height: 100px;
+}
+
+.menu {
+    list-style: none;
+}
+
+/** Footer **/
+.rrss {
+    text-decoration: none;
+}
+.rrss img {
+    max-width: 25px;
+}
+
