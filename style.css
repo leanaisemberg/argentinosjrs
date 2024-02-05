@@ -1,48 +1,83 @@
 /** General **/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Montserrat:ital,wght@0,100;0,400;0,700;1,400&display=swap');
 
+html {
+    /* 1rem = 10px */
+    font-size: 62.5%;
+}
+
 body {
-    font-size: 16px;
+    font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
 }
 
+
 header,
 footer {
-    background-color: red;
+    background-color: #CF261F;
 }
 
 h1 {
+    font-size: 5rem;
     color: #CD0000;
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 3rem;
     color:blue;
 }
 
+.hero {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
 .bandera {
-    max-width: 50%;
+    max-width: 100%;
+    padding-left: 3rem;
 }
 
 .jugadores img {
-    max-width: 200px;
+    max-width: 20rem;
 }
 
 /** Header **/
 .logo {
-    max-width: 80px;
-    max-height: 100px;
+    max-width: 8rem;
+    max-height: 10rem;
 }
 
 .menu {
     list-style: none;
+    padding-right: 3rem;
+    padding-left: 2rem;
+}
+
+.navbar li {
+    margin-right: 1rem;
+}
+
+.navbar a {
+    font-size: 3rem;
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar-collapse {
+    display: flex;
 }
 
 /** Footer **/
-.rrss {
-    text-decoration: none;
-}
-.rrss img {
-    max-width: 25px;
+
+footer {
+    padding-right: 3rem;
+    padding-left: 2rem;
 }
 
+.rrss a {
+    text-decoration: none;
+    padding-right: 0.5rem;
+}
+.rrss img {
+    max-width: 2.5rem;
+}
