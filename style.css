@@ -1,4 +1,5 @@
 /** General **/
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Montserrat:ital,wght@0,100;0,400;0,700;1,400&display=swap');
 
 html {
@@ -10,7 +11,6 @@ body {
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
 }
-
 
 header,
 footer {
@@ -27,6 +27,10 @@ h2 {
     color:blue;
 }
 
+.title-aaaj {
+    padding-bottom: 3rem;
+}
+
 .hero {
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -37,11 +41,20 @@ h2 {
     padding-left: 3rem;
 }
 
-.jugadores img {
-    max-width: 20rem;
+.jugadores .col {
+    padding-bottom: 5rem;
 }
 
+.jugadores img {
+    max-width: 70%;
+    padding-bottom: 5rem;
+    margin: auto;
+    display: block;
+}
+
+
 /** Header **/
+
 .logo {
     max-width: 8rem;
     max-height: 10rem;
@@ -67,6 +80,7 @@ h2 {
     display: flex;
 }
 
+
 /** Footer **/
 
 footer {
@@ -80,4 +94,15 @@ footer {
 }
 .rrss img {
     max-width: 2.5rem;
+}
+
+
+/** Media query **/
+
+@media (max-width: 992px) {
+
+    .bandera {
+        padding-left: 0;
+    }
+    
 }

@@ -10,72 +10,103 @@
 
 <body>
     <!-- Inicio header -->
-    <header>
-        <img class="logo" src="../img/logo.svg" alt="Logo AAAJ">
-
+    <header class="container-fluid">
         <!-- Inicio navbar -->
-        <nav> 
-            <ul class="menu"> 
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="historia.html">Historia</a>
-                </li>
-                <li>
-                    <a href="semillero.html">Semillero</a>
-                </li>
-                <li>
-                    <a href="estadio.html">Estadio</a>
-                </li>
-                <li>
-                    <a href="titulos.html">Títulos</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-md navbar-light menu">
+            <a class="navbar-brand" href="../index.html">
+                <img class="logo" src="../img/logo.svg" alt="Logo AAAJ" style="width:200px">
+            </a>
+            
+            <button class="navbar-toggler ms-auto text-align-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarToggleExternalContent">
+                <ul class="navbar-nav"> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="semillero.html">Semillero</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="estadio.html">Estadio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="titulos.html">Títulos</a>
+                    </li>
+                </ul>    
+            </div>
         </nav>
     </header>
+        
 
     <!-- Inicio article -->
-    <section class="article">
-        <div>
-            <h1>El semillero del mundo</h1>
-            <p>La característica que nos distingue es la formación de grandes jugadores. La institución ha formado a múltiples profesionales, que luego tuvieron éxito en diferentes lugares del planeta.</p>
-            <p>Nombrar a Diego Armando Maradona, Juan Román Riquelme, Claudio Borghi, Sergio Batista y Fernando Redondo tiene un denominador común: todos han surgido del 'Bicho'.</p>
-            <p>Además de los futbolistas nombrados, han surgido Lucas Biglia, Leonardo Pisculichi, Fabricio Coloccini, Cristian Ledesma, José Pékerman, Nicolás Pareja, Fernando Cáceres y Esteban Cambiasso, quienes tuvieron gran experiencia en el deporte internacional.</p>
-            <p>La lista se hace interminable, ya que más de cien jugadores que llegaron a la élite son los que tuvieron la oportunidad de iniciarse en las juveniles del club.</p>
-            <p>Como ya hemos mencionado, algunos de los jugadores más conocidos son:</p>
+    <section class="article hero container">
+        <div class="row">
+            <div>
+                <h1 class="title-aaaj text-center">El semillero del mundo</h1>
+                <p>La característica que nos distingue es la formación de grandes jugadores. La institución ha formado a múltiples profesionales, que luego tuvieron éxito en diferentes lugares del planeta.</p>
+                <p>Nombrar a Diego Armando Maradona, Juan Román Riquelme, Claudio Borghi, Sergio Batista y Fernando Redondo tiene un denominador común: todos han surgido del 'Bicho'.</p>
+                <p>Además de los futbolistas nombrados, han surgido Lucas Biglia, Leonardo Pisculichi, Fabricio Coloccini, Cristian Ledesma, José Pékerman, Nicolás Pareja, Fernando Cáceres y Esteban Cambiasso, quienes tuvieron gran experiencia en el deporte internacional.</p>
+                <p>La lista se hace interminable, ya que más de cien jugadores que llegaron a la élite son los que tuvieron la oportunidad de iniciarse en las juveniles del club.</p>
+                <p>Como ya hemos mencionado, algunos de los jugadores más conocidos son:</p>
+            </div>
         </div>
 
         <!-- Inicio jugadores -->
-        <div class="jugadores">
-            <img src="../img/maradona.jpg" alt="Foto Maradona">
-            <h2>Diego Armando Maradona</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur montes, mauris netus hendrerit pulvinar velit aliquam suspendisse diam, ultrices porta turpis varius vestibulum molestie est ridiculus. Nisi habitant vitae ante facilisi sapien euismod tristique nec, at iaculis aliquet quam dictumst ornare eros potenti, justo cras gravida mattis parturient litora vulputate.</p>
-            
-            <img src="../img/borghi.jpg" alt="Foto Borghi">
-            <h2>Claudio "Bichi" Borghi</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur montes, mauris netus hendrerit pulvinar velit aliquam suspendisse diam, ultrices porta turpis varius vestibulum molestie est ridiculus. Nisi habitant vitae ante facilisi sapien euismod tristique nec, at iaculis aliquet quam dictumst ornare eros potenti, justo cras gravida mattis parturient litora vulputate.</p>
-            
-            <img src="../img/riquelme.jpg" alt="Foto Riquelme">
-            <h2>Juan Roman Riquelme</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur montes, mauris netus hendrerit pulvinar velit aliquam suspendisse diam, ultrices porta turpis varius vestibulum molestie est ridiculus. Nisi habitant vitae ante facilisi sapien euismod tristique nec, at iaculis aliquet quam dictumst ornare eros potenti, justo cras gravida mattis parturient litora vulputate.</p>
+        <div class="row jugadores justify-content-center align-items-center pt-5 row-cols-1 row-cols-xl-3">
+            <div class="col">
+                <img src="../img/maradona.jpg" alt="Foto Maradona">
+                <div>
+                    <h2 class="pb-2">Diego Armando Maradona</h2>
+                    <p>Diego Armando Maradona fue un futbolista y entrenador argentino. Como jugador, se desempeñó como mediocampista ofensivo o delantero, y es reconocido mundialmente como uno de los mejores futbolistas en la historia. Debutó en Argentinos Juniors en1976, jugó 166 partidos y tiene 116 goles, es actualmente el segundo mayor goleador del club.</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="../img/borghi.jpg" alt="Foto Borghi">
+                <div>
+                    <h2 class="pb-2">Claudio "Bichi" Borghi</h2>
+                    <p>Claudio Daniel Borghi es un exfutbolista profesional argentino, nacionalizado chileno, que fue campeón mundial con la Selección Argentina. Jugaba como mediocampista ofensivo o enganche. Debutó en Argentinos Juniors en 1981, jugó 78 goles y consiguió 4 titulos en el club como jugador. Se desempeñó como DT tambien, logrando salir campeón con el club en 2010.</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="../img/riquelme.jpg" alt="Foto Riquelme">
+                <div>
+                    <h2 class="pb-2">Juan Roman Riquelme</h2>
+                    <p>Juan Roman Riquelme es un exfutbolista profesional argentino. Aunque se formó en las divisiones inferiores del club, fue vendido a a Boca Juniors antes de poder debutar. Más tarde, en 2014, volvería al club en busqueda de ayudarlo a ascender, objetivo que logró cumplir para luego retirarse del futbol profeisonal.</p>
+                </div>  
+            </div>
         </div>
     </section>
 
     <!-- Inicio footer -->
-    <footer>
-        <p>2023 - Todos los derechos reservados</p>
+    <footer class="footer p-3">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-4">
+                    <img class="logo pb-3" src="../img/logo.svg" alt="Logo AAAJ">
+                    <p>2024 - Todos los derechos reservados</p>
+                </div>
 
-        <!-- Inicio redes sociales -->
-        <a href="https://www.facebook.com/AAAJOficial/" class="rrss" target="_blank">
-            <img src="../img/facebook.png" alt="Logo de Facebook">
-        </a>
-        <a href="https://www.instagram.com/aaajoficial" class="rrss" target="_blank">
-            <img src="../img/instagram.png" alt="Logo de Instagram">
-        </a>
-        <a href="https://twitter.com/aaajoficial" class="rrss" target="_blank">
-            <img src="../img/twitter.png" alt="Logo de Twitter">
-        </a>
+                <!-- Inicio redes sociales -->
+                <div class="rrss col-md-7 text-md-end">
+                    <a href="https://www.facebook.com/AAAJOficial/" target="_blank">
+                        <img src="../img/facebook.png" alt="Logo de Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/aaajoficial" target="_blank">
+                        <img src="../img/instagram.png" alt="Logo de Instagram">
+                    </a>
+                    <a href="https://twitter.com/aaajoficial" target="_blank">
+                        <img src="../img/twitter.png" alt="Logo de Twitter">
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
