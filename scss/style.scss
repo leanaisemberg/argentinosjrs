@@ -1,0 +1,22 @@
+// Variables
+@import "./utilities/variables";
+
+// Reset
+@import "./base/reset";
+
+// Tipografias
+@import "./base/tipografias";
+
+// Mixins
+@import "./utilities/mixins";
+
+// Views
+@import "./views/general";
+@import "./views/home";
+@import "./views/semillero";
+@import "./views/titulos";
+@import "./views/header";
+@import "./views/footer";
+
+// Media
+@import "./utilities/media";

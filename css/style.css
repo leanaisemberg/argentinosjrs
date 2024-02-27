@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Montserrat:ital,wght@0,100;0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+/** General **/
+header,
+footer {
+  background-color: #dd0000;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #dd0000;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #0000FF;
+}
+
+.titulo-aaaj {
+  padding-bottom: 3rem;
+}
+
+.hero {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+/** Home **/
+.bandera {
+  max-width: 100%;
+  padding-left: 3rem;
+}
+
+/** Semillero **/
+.jugadores .col {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 5rem;
+}
+.jugadores img {
+  max-width: 70%;
+  padding-bottom: 5rem;
+  margin: auto;
+  display: block;
+}
+
+/** Titulos **/
+.titulos a {
+  color: #e0ca34;
+}
+.titulos a:hover {
+  color: #19dc29;
+  transition: color 1s;
+}
+
+/** Header **/
+.logo {
+  max-width: 8rem;
+  max-height: 10rem;
+}
+
+.menu, footer {
+  list-style: none;
+  padding-left: 2rem;
+  padding-right: 3rem;
+}
+
+.navbar li {
+  margin-right: 1rem;
+}
+.navbar a {
+  font-size: 3rem;
+  color: white;
+  text-decoration: underline;
+}
+.navbar-collapse {
+  display: flex;
+}
+
+/** Footer **/
+.rrss a {
+  text-decoration: none;
+  padding-right: 0.5rem;
+}
+.rrss img {
+  max-width: 2.5rem;
+}
+
+/** Media query **/
+@media (max-width: 992px) {
+  .bandera {
+    padding-left: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

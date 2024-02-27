@@ -1,0 +1,28 @@
+/** Header **/
+
+.logo {
+    max-width: 8rem;
+    max-height: 10rem;
+}
+
+.menu {
+    list-style: none;
+    @include paddingX (2rem, 3rem)
+}
+
+.navbar { 
+	li {
+	    margin-right: 1rem;
+	}
+
+	a {
+	    font-size: 3rem;
+	    color: white;
+	    text-decoration: underline;
+	}
+
+	&-collapse {
+    display: flex;
+	}
+}
+

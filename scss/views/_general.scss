@@ -1,0 +1,24 @@
+/** General **/
+
+header,
+footer {
+    background-color: $color-rojo;
+}
+
+h1 {
+    font-size: 5rem;
+    color: $color-rojo;
+}
+
+h2 {
+    font-size: 3rem;
+    color: $color-blue;
+}
+
+.titulo-aaaj {
+    @include paddingY (null, 3rem);
+}
+
+.hero {
+    @include paddingY (10rem, 10rem);
+}

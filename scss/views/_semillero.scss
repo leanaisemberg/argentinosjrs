@@ -1,0 +1,15 @@
+/** Semillero **/
+
+.jugadores {
+	.col {
+		@include paddingX (1.5rem, 1.5rem);
+	    padding-bottom: 5rem;
+	}
+
+	img {
+	    max-width: 70%;
+	    padding-bottom: 5rem;
+	    margin: auto;
+	    display: block;
+	}
+}

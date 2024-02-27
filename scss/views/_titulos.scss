@@ -1,0 +1,12 @@
+/** Titulos **/
+
+.titulos {
+	a {
+	    color: $color-gold;
+
+	    &:hover{
+	    	color: #19dc29;
+	    	transition: color 1s;
+	    }
+	}
+}
