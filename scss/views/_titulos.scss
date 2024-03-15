@@ -5,8 +5,8 @@
 	    color: $color-gold;
 
 	    &:hover{
-	    	color: #19dc29;
-	    	transition: color 1s;
+	    	color: $color-rojo;
+			transition: all 1s;    	
 	    }
 	}
 }

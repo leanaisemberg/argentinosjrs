@@ -1,10 +1,5 @@
 /** Header **/
 
-.logo {
-    max-width: 8rem;
-    max-height: 10rem;
-}
-
 .menu {
     list-style: none;
     @include paddingX (2rem, 3rem)
@@ -18,7 +13,7 @@
 	a {
 	    font-size: 3rem;
 	    color: white;
-	    text-decoration: underline;
+	    text-decoration-line: underline;
 	}
 
 	&-collapse {
@@ -26,3 +21,9 @@
 	}
 }
 
+.nav-link {
+	&:hover {
+		color: $color-blue;
+		transition: all 0.6s;
+	}
+}

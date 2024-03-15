@@ -12,5 +12,10 @@ footer {
 
 	img {
 	    max-width: 2.5rem;
+
+		&:hover {
+			transition: all 0.5s;
+			transform: scale(1.3);
+		}
 	}
 }
