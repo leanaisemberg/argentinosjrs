@@ -13,7 +13,7 @@
 	a {
 	    font-size: 3rem;
 	    color: white;
-	    text-decoration-line: underline;
+	    
 	}
 
 	&-collapse {
@@ -22,8 +22,12 @@
 }
 
 .nav-link {
+	border-radius: 1.2rem;
+	
 	&:hover {
-		color: $color-blue;
-		transition: all 0.6s;
+		color: $color-gold;
+		transition: all 0.5s;
+		cursor: pointer;
+		background-color: $color-blue;
 	}
 }

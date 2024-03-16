@@ -3,10 +3,16 @@
 .titulos {
 	a {
 	    color: $color-gold;
+		font-weight: bold;  
 
 	    &:hover{
 	    	color: $color-rojo;
-			transition: all 1s;    	
+			transition: all 1s;
 	    }
+	}
+
+	li {
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
 	}
 }

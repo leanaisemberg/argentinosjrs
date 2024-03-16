@@ -1,28 +1,30 @@
 /** Semillero **/
 
 .jugadores {
-	grid-row-gap: 50px;
+	grid-row-gap: 5rem;
 
 	.col {
 		@include paddingX (1.5rem, 1.5rem);
 	    padding-bottom: 5rem;
 		background-color: rgba(23, 49, 214, 0.3);
-		padding: 35px;
-		border-radius: 15px;
+		padding: 3.5rem;
+		border-radius: 1rem;		
 
 		&:hover {
 			transform: scale(1.05);
 			background-color: rgba(23, 49, 214, 0.7);
-			transition: all .2s ease-in-out; 
+			transition: all .3s ease-in-out; 
+			border-radius: 2rem;
 
 			h2 {
-				color: $color-rojo
+				color: $color-gold;
+				font-weight: bold;
 			}
-		  }
+		}
 	}
 
 	img {
-		max-height: 400px;
+		max-height: 40rem;
 		max-width: 100%;
 	    padding-bottom: 5rem;
 	    margin: auto;
