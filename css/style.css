@@ -14,6 +14,9 @@ body {
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
 }
+body p {
+  color: #07408A;
+}
 
 /** General **/
 header,
@@ -24,7 +27,7 @@ footer {
 h1 {
   font-size: 5rem;
   color: #dd0000;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
 }
 
 h2 {
@@ -48,6 +51,7 @@ p {
 .hero {
   padding-top: 10rem;
   padding-bottom: 10rem;
+  background-image: url("../../img/fondo.png");
 }
 
 /** Home **/
@@ -95,6 +99,14 @@ p {
 }
 
 /** Titulos **/
+.titulos .col-md-8 {
+  background-color: white;
+  border-radius: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
 .titulos a {
   color: #e0ca34;
   font-weight: bold;
@@ -123,6 +135,7 @@ p {
   color: white;
 }
 .navbar-collapse {
+  transition: all 0.4s;
   display: flex;
 }
 
@@ -150,6 +163,11 @@ p {
 }
 
 /** Media query **/
+@media (max-width: 992px) {
+  .bandera {
+    padding-left: 0;
+  }
+}
 @media (max-width: 992px) {
   .bandera {
     padding-left: 0;
